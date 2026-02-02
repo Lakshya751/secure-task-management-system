@@ -44,3 +44,25 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .cache/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+.angular/
+*.tsbuildinfo
+*.js.map
+libs/**/*.js
+libs/**/*.d.ts
+
+# Database
+database.sqlite
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
