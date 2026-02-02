@@ -179,6 +179,7 @@ cd secure-task-management-system
 # 2. Install backend dependencies
 cd apps/api
 npm install
+The first install will take some time so its perfect time to go for a coffee break
 
 # 3. Install frontend dependencies
 cd ../dashboard
