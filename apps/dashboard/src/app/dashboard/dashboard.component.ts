@@ -359,7 +359,7 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-  getTasksByStatus(status: TaskStatus): Task[] {
+  getTasksByStatus(status: string): Task[] {
     return this.filteredTasks
       .filter(task => task.status === status)
       .sort((a, b) => a.orderIndex - b.orderIndex);
@@ -370,8 +370,8 @@ export class DashboardComponent implements OnInit {
     this.taskForm = {
       title: '',
       description: '',
-      category: 'FEATURE',
-      status: 'TODO',
+      category: 'FEATURE' as TaskCategory,
+      status: 'TODO' as TaskStatus,
     };
     this.showModal = true;
   }

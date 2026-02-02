@@ -65,9 +65,9 @@ import { AuthService, LoginRequest } from '../services';
         <div class="mt-6 p-4 bg-gray-50 rounded-lg">
           <p class="text-xs text-gray-600 font-semibold mb-2">Test Credentials:</p>
           <div class="space-y-1 text-xs text-gray-600">
-            <p><strong>Owner:</strong> owner@parent.com / password123</p>
-            <p><strong>Admin:</strong> admin@parent.com / password123</p>
-            <p><strong>Viewer:</strong> viewer@child.com / password123</p>
+            <p><strong>Owner:</strong> owner&#64;parent.com / password123</p>
+            <p><strong>Admin:</strong> admin&#64;parent.com / password123</p>
+            <p><strong>Viewer:</strong> viewer&#64;child.com / password123</p>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@
     "types": [],
     "target": "ES2022",
     "useDefineForClassFields": false,
+    "strict": false,
     "lib": [
       "ES2022",
       "dom"
