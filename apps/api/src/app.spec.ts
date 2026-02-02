@@ -1,10 +1,10 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import * as request from 'supertest';
-import { AppModule } from '../app.module';
+import request from 'supertest';
+import { AppModule } from './app.module';
 import { DataSource } from 'typeorm';
-import { seedDatabase } from '../database/seeder';
+import { seedDatabase } from './database/seeder';
 
 describe('RBAC Integration Tests', () => {
   let app: INestApplication;

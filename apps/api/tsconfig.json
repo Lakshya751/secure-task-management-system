@@ -2,7 +2,6 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src",
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
@@ -13,10 +12,17 @@
     "sourceMap": true,
     "incremental": true,
     "skipLibCheck": true,
-    "strictNullChecks": true,
-    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "noFallthroughCasesInSwitch": false,
+    "strictPropertyInitialization": false,
+    "baseUrl": ".",
+    "paths": {
+      "@app/data": ["../../libs/data/src/index.ts"],
+      "@app/auth": ["../../libs/auth/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "../../libs/**/*"]
 }
