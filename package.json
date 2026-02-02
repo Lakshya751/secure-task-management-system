@@ -1,0 +1,17 @@
+{
+  "name": "jdoe-fb6aadf4-a6f1-4def-9ed6-61d0e36d7311",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "api:serve": "cd apps/api && npm run start:dev",
+    "api:test": "cd apps/api && npm test",
+    "dashboard:serve": "cd apps/dashboard && npm start",
+    "dashboard:build": "cd apps/dashboard && npm run build"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nx/workspace": "^17.0.0",
+    "nx": "^17.0.0",
+    "typescript": "~5.2.0"
+  }
+}
